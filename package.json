@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build",
-    "start-server": "node dist/index.js"
+    "start": "npm run build && node dist/index.js"
   },
   "dependencies": {
     "@hapi/joi": "17.1.1",
